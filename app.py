@@ -8,7 +8,7 @@ image = Image.open("logo.png")
 st.image(image)
 
 st.title("Copa dos Dados")
-st.text("Algoritmo de Machine Learning capaz de prever que vai ganhar a Copa do Mundo 2022")
+st.text("Algoritmo de Machine Learning capaz de prever qual time vai ganhar a Copa do Mundo 2022")
 
 df_selecoes = pd.read_csv("Selecoes2022.csv")
 
